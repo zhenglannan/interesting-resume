@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+<!-- 先重置css设置后，再加载自设置的css，排版效率才会提升 -->
+<link href="css/reset.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<title>cartoon resume</title>
+</head>
+<!-- return false?? -->
+
+<body onmousewheel="return false;">
+	<!-- 内容 -->
+	<div id="content">
+		<!-- 图层 -->
+		<!-- 底层 -->
+		<div id="Floor">
+			<!-- 背景 -->
+			<div id="Bg"></div>
+			<div id="bgmountain"></div>
+
+			<!-- cartoon1 -->
+			<div id="Bao1"></div>
+
+			<!-- cartoon2 -->
+			<div id="Bao2">
+				<!-- 信箱超链接 -->
+				<a id="Speak" href="mailto:test@gmail.com?subject=请输入标题&body=请输入内容"></a>
+			</div>
+			<!-- 底层 -->
+			<!-- 草1 -->
+			<div id="Grass1"></div>
+
+			<!-- 草2 -->
+			<div id="Grass2"></div>
+
+			<!-- 背景云 -->
+			<div id="bg_Cloud">
+				<img id="bg_Cloud1" class="bg" src="image/Cloud.png" width="162px" height="162px" />
+				<img id="bg_Cloud2" class="bg" src="image/Cloud.png" width="165px" height="165px" />
+				<img id="bg_Cloud3" class="bg" src="image/Cloud.png" width="340px" height="340px" />
+				<img id="bg_Cloud4" class="bg" src="image/Cloud.png" width="150px" height="150px" />
+				<img id="bg_Cloud5" class="bg" src="image/Cloud.png" width="200px" height="200px" />
+				<img id="bg_Cloud6" class="bg" src="image/Cloud.png" width="170px" height="170px" />
+				<img id="bg_Cloud7" class="bg" src="image/Cloud.png" width="180px" height="112px" />
+				<img id="bg_Cloud8" class="bg" src="image/Cloud.png" width="240px" height="152px" />
+				<img id="bg_Cloud9" class="bg" src="image/Cloud.png" width="180px" height="112px" />
+				<img id="bg_Cloud10" class="bg" src="image/Cloud.png" width="200px" height="200px" />
+			</div>
+
+			<!-- 中层 -->
+			<!-- 花1 -->
+			<div id="flower1"></div>
+
+			<!-- 花2 -->
+			<div id="flower2"></div>
+
+			<!-- 地板1 -->
+			<div id="Floor1"></div>
+
+			<!-- 地板2(小土拨) -->
+			<div id="Floor2"></div>
+
+			<!-- 上层 -->
+			<!-- 内容4(操作提示) -->
+			<font size="5" color="#666666" id="content4">
+				请使用chrome开启! 按键盘←或→键或拉动水平滚动条，慢慢控制人物移动速度
+			</font>
+
+			<!-- 森林 -->
+			<div id="forest"></div>
+
+			<!-- 树1 -->
+			<div id="tree1"></div>
+
+			<!-- 树2 -->
+			<div id="tree2"></div>
+			<!-- 太阳 -->
+			<div id="sun"></div>
+			<!-- 月亮 -->
+			<div id="moon"></div>
+			<!-- 雪山 -->
+			<div id="snowmoun"></div>
+		</div>
+
+		<!-- 标题 -->
+		<div id="title">
+			<!-- 标题云1 -->
+			<div class="Cloud" id="Cloud1">
+				<!-- 标题文字 -->
+				<font class="title" size="7" color="#FF4B2B">Cindy个人履历</font>
+			</div>
+
+			<!-- 标题云2 -->
+			<div class="Cloud" id="Cloud2">
+				<!-- 标题文字 -->
+				<font class="title" size="7" color="#FF4B2B">专业能力</font>
+			</div>
+			<!-- 内容1 -->
+			<font size="7" color="#FF4B2B" id="content1">vue</font>
+			<!-- 内容2 -->
+			<font size="7" color="#FF4B2B" id="content2">js</font>
+			<!-- 内容3 -->
+			<font size="7" color="#FF4B2B" id="content3">node</font>
+
+			<!-- 标题云3 -->
+			<div class="Cloud" id="Cloud3">
+				<!-- 标题文字 -->
+				<font class="title" size="7" color="#FF4B2B">项目设计</font>
+			</div>
+
+			<!-- 标题云4 -->
+			<div class="Cloud" id="Cloud4">
+				<!-- 标题文字 -->
+				<font class="title" size="7" color="#FF4B2B">作品集</font>
+			</div>
+
+			<!-- 标题云5 -->
+			<div class="Cloud" id="Cloud5">
+				<!-- 标题文字 -->
+				<font class="title" size="7" color="#FF4B2B">有兴趣请联系我</font>
+			</div>
+		</div>
+
+		<!-- 角色 -->
+		<div id="Character">
+			<!-- 主角 -->
+			<div id="Player"></div>
+
+			<!-- 猫 -->
+			<div id="cat"></div>
+
+			<!-- 第一层蝴蝶 -->
+			<div id="Bat1" class="Bat1"></div>
+			<div id="Bat2" class="Bat2"></div>
+			<div id="Bat3" class="Bat3"></div>
+			<div id="Bat4" class="Bat2"></div>
+
+			<!-- 第二层蝴蝶 -->
+			<div id="Bat5" class="Bat3"></div>
+			<div id="Bat6" class="Bat1"></div>
+			<div id="Bat7" class="Bat2"></div>
+
+			<!-- 第三层蝴蝶 -->
+			<div id="Bat8" class="Bat2"></div>
+			<div id="Bat9" class="Bat3"></div>
+			<div id="Bat10" class="Bat1"></div>
+
+			<!-- 天鹅1 -->
+			<a id="swan1" href="#1">
+				<!-- 飞猪文字 -->
+				<font id="swanText" size="6" color="#FF4B2B">网页设计</font>
+			</a>
+
+			<!-- 天鹅2 -->
+			<a id="swan2" href="#2">
+				<!-- 飞猪文字 -->
+				<font id="swanText" size="6" color="#FF4B2B">游戏设计</font>
+			</a>
+
+			<!-- 天鹅3 -->
+			<a id="swan3" href="#3">
+				<!-- 天鹅文字 -->
+				<font id="swanText" size="6" color="#FF4B2B">产品设计</font>
+			</a>
+
+			<!-- 天鹅4 -->
+			<div id="swan4"></div>
+
+			<!-- 天鹅5 -->
+			<div id="swan5"></div>
+			<!-- 天鹅6 -->
+			<div id="swan6"></div>
+			<!-- 天鹅7 -->
+			<div id="swan7"></div>
+			<!-- 气球1 -->
+			<a id="Balloon1" href="#1">
+				<!-- 气球文字 -->
+				<font id="BalloonText" size="6" color="#F26522">游戏</font>
+			</a>
+			<!-- 气球2 -->
+			<a id="Balloon2" href="#2">
+				<!-- 气球文字 -->
+				<font id="BalloonText" size="6" color="#F26522">绘画</font>
+			</a>
+
+			<!-- 气球3 -->
+			<a id="Balloon3" href="#3">
+				<!-- 气球文字 -->
+				<font id="BalloonText" size="6" color="#F26522">网页</font>
+			</a>
+
+			<!-- 小鸟 -->
+			<div id="Bird"></div>
+		</div>
+	</div>
+	<script src="js/my.js"></script>
+</body>
+
+</html>
