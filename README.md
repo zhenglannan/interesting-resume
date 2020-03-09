@@ -8,7 +8,7 @@
 <a name="gCXgT"></a>
 ## 运行环境：
 
-Vscode+chrome
+Vscode
 
 <a name="I1od7"></a>
 ## ![1.png](https://cdn.nlark.com/yuque/0/2020/png/262951/1581593107216-65c761e8-81bb-4089-af51-01228fa4725d.png#align=left&display=inline&height=717&name=1.png&originHeight=717&originWidth=1191&size=73210&status=done&style=none&width=1191)
